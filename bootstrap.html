@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Beautiful Bootstrap Grid</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 36px;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 30px auto;
+            max-width: 800px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        p {
+            text-align: center;
+            padding: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .row {
+            margin-bottom: 20px;
+        }
+
+        .row.text-center p {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="text-center">
+        <div>
+            <h1>Beautiful Bootstrap Grid</h1>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="./images/img1.jpg" alt="Nature Image 1">
+            </div>
+            <div class="col-2">
+                <img src="./images/img2.jpg" alt="Nature Image 2">
+            </div>
+            <div class="col-2">
+                <img src="./images/img3.jpg" alt="Nature Image 3">
+            </div>
+            <div class="col-4">
+                <img src="./images/img4.jpg" alt="Nature Image 4">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <img src="./images/img6.jpg" alt="Nature Image 6">
+                </div>
+                <div class="row">
+                    <img src="./images/img7.jpg" alt="Nature Image 7">
+                </div>
+                <div class="row">
+                    <img src="./images/img5.jpg" alt="Nature Image 5">
+                </div>
+            </div>
+            <div class="col">
+                <img src="./images/img8.jpg" alt="Nature Image 8">
+            </div>
+
+            <div class="col">
+                <div class="row">
+                    <div>
+                        <p>
+                            Some people with reading difficulties or visual impairments
+                            need to customize the display of text to make it easier to read.
+                            When text is presented as an image of text, that limits their ability
+                            to change the appearance of that text. So wherever possible, use text
+                            along with CSS to apply styling (such as color, typeface, or size).
+                            This is the sample text only. This is the sample text only.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>
+                        Some people with reading difficulties or visual impairments
+                        need to customize the display of text to make it easier to read.
+                        When text is presented as an image of text, that limits their ability
+                        to change the appearance of that text. So wherever possible, use text
+                        along with CSS to apply styling (such as color, typeface, or size).
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-12">
+                <div>
+                    <p>Text with effect at center.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
